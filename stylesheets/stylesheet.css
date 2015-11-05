@@ -57,8 +57,8 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: "./ ";
+header h1:before, #main_content h1:before {
+  content: "./";
   font-size: 24px;
 }
 
@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main_content h1 {
   font-size: 30px;
+  text-transform:lowecase;
 }
 
 #main_content h2 {
