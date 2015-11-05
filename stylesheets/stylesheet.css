@@ -43,7 +43,7 @@ header {
   margin: 0 0 40px 0;
 }
 
-header h1 {
+header h1, #main_content h1:before {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
